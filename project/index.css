@@ -1,0 +1,74 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px black;
+    position: fixed;
+
+}
+
+.nav-link{
+    color: white;
+font-size: 20px;
+}
+.nav-link:hover{
+    color:rgb(212, 203, 203);
+    border-top: 1px solid red;
+}
+
+/* banner section */
+
+.banner{
+    padding: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -50px;
+    color: ghostwhite;
+    font-weight: 100;
+    background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.492)) ,url(https://static-cse.canva.com/blob/571503/Patterns303.jpg);
+}
+
+.banner span{
+font-weight: 600;
+font-style: bold;
+}
+/* main section */
+.main{
+margin-top: -50px;
+height: 800px;
+padding: 5px;
+border-radius: 5px;
+box-shadow: 2px 2px 5px rgba(238, 239, 240, 0.401), -2px -2px 5px rgba(232, 230, 230, 0.401);
+background-color: beige;
+}
+
+.block1{
+    margin-top: 5px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(118, 116, 116);
+    padding: 50px;
+  
+}
+.block2{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(118, 116, 116);
+    border-bottom: 1px solid rgb(118, 118, 118);
+    padding: 50px;
+  
+}
+.b2,.b3,.b4{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    margin:0px 50px ;
+
+}
+.b2{
+    background-image: url();
+}
